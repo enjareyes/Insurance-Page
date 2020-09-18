@@ -1,0 +1,79 @@
+
+.logo {
+    background-image: url('../assets/assets/logo-carrier-sm-default.png');
+    background-color: #cccccc;
+    height: 150px;
+    width: 150px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+mat-panel-title,
+mat-panel-description,
+.blocker {
+  display: block;
+}
+
+.price {
+  text-align: right;
+  font-size: 30px;
+}
+
+.mo {
+  font-size: 20px;
+}
+
+.yellow-btn {
+  background: linear-gradient(350deg, #f87000 40%, #f8ae00 85%);
+  color: white;
+  border-radius: 25px;
+  margin-top: 10px;
+  float: right;
+}
+
+.blue-btn {
+  background: linear-gradient(350deg, #6169f4 40%, #1cbeec 85%);
+  color: white;
+  border-radius: 25px;
+  margin-top: 12%;
+  float: right
+}
+
+button:hover {
+  color: white;
+}
+
+.gray {
+  color: #959595;
+}
+
+.bottom-header-border {
+  border-bottom: 1px solid #959595;
+  margin-left:15px;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+}
+
+.title {
+  display: inline-block;
+  vertical-align: top;
+  line-height: 2;
+  margin-left: 3px;
+}
+
+.verified {
+  color:  #5c6cff;
+  margin-right: 10px;
+  font-size: 13px;
+  vertical-align: middle;
+  font-weight: bolder;
+  line-height: 4;
+}
+
+.dollar {
+  font-size: 18px;
+  vertical-align: top;
+  line-height: 2;
+}

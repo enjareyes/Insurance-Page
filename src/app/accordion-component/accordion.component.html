@@ -1,0 +1,17 @@
+<div class="row">
+    <div class="form-group col-md-3 offset-md-9">
+        <span>Sort By:</span>
+        <select #selectList class="selectpicker form-control" (change)='sortBy(selectList.value)'>
+            <option value='null' selected></option>
+            <option value='price'>Price</option>
+            <option value='rating'>Rating</option>
+            <option value='alphabetical'>Alphabetical</option>
+        </select>
+    </div>
+</div>
+
+<mat-accordion multi="true">
+    <div *ngFor='let panelItem of data; index as i'>
+        <app-panel id='panel-{{i}}' [data]='panelItem' [panelId]='i'></app-panel>
+    </div>
+</mat-accordion>
